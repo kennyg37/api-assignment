@@ -26,7 +26,7 @@ def print_weather_data(city_name, weather_data):
         clouds = weather_data['list'][0]['clouds']['all']
         
         print(f"Weather in {city_name}:")
-        print(f"Temperature: {temperature} °C")
+        print(f"Temperature: {temperature} °f")
         print(f"Humidity: {humidity}%")
         print(f"Description: {weather_description}")
         print(f"Wind Speed: {wind_speed} m/s")
